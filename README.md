@@ -3,8 +3,9 @@
 ## XPU Installation Instructions
 - You must have pytorch working on XPU installed in you Python 3.X environment. This project has currently been tested with:
   - pytorch for xpu on Intel GPUs
-  - install `nanobind` for packaging
-  - install `pytorch_mssim` for comparison
+  - install [`nanobind`](https://pypi.org/project/nanobind/) for packaging
+  - install [`pytorch_mssim`](https://pypi.org/project/pytorch-msssim/) for comparison
+  - install [`scikit_build_core`](https://pypi.org/project/scikit-build-core/)
 
 ### Build
 ```
